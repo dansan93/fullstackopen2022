@@ -1,0 +1,23 @@
+# @name getPersons
+GET http://localhost:3001/api/persons
+
+###
+
+# @name getPerson
+GET http://localhost:3001/api/persons/1
+
+###
+
+# @name deletePerson
+DELETE http://localhost:3001/api/persons/1
+
+###
+
+# @name addPerson
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+  "name": "Daniel",
+  "number": "12344567"
+}
